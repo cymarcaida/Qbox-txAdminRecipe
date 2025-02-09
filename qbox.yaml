@@ -165,8 +165,8 @@ tasks:
   - action: unzip
     dest: ./resources/[qbx]
     src: ./tmp/qbx_core.zip
-  - action: query_database
-    file: ./resources/[qbx]/qbx_core/qbx_core.sql
+  # - action: query_database
+  #  file: ./resources/[qbx]/qbx_core/qbx_core.sql
 
   - action: download_file
     path: ./tmp/qbx_vehicles.zip
